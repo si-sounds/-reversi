@@ -19,6 +19,16 @@ body{
 	overflow: hidden;
 }
 
+label{
+	position: absolute;
+	background: #b3d0f7;
+	font-size: 1vw;
+	cursor: pointer;
+}
+label input {
+	display: none;
+}
+
 .relative{
 	position: relative;
 }
@@ -27,10 +37,11 @@ body{
 	display:block;
 	padding-bottom:100%;
 }
-@media (orientation: landscape){
+@media (orientation: landscape){/*for PC*/
 	img{
 		position: absolute;
 		width: 10vh;
+		height: 10vh;
 	}
 	#board{
 		position: absolute;
@@ -49,30 +60,35 @@ body{
 	#senkou{
 		position: absolute;
 		width: 18vh;
+		height: initial;
 		top: 44vh;
 		left: 28vh;
 	}
 	#koukou{
 		position: absolute;
 		width: 18vh;
+		height: initial;
 		top: 44vh;
 		left: 50vh;		
 	}
 	#l1{
 		position: absolute;
 		width: 12vh;
+		height: initial;
 		top: 44.5vh;
 		left: 26vh;		
 	}
 	#l2{
 		position: absolute;
 		width: 12vh;
+		height: initial;
 		top: 44.5vh;
 		left: 42vh;		
 	}
 	#l3{
 		position: absolute;
 		width: 12vh;
+		height: initial;
 		top: 44.5vh;
 		left: 58vh;		
 	}
@@ -115,14 +131,28 @@ body{
 	#reset{
 		position: absolute;
 		width: 12vh;
+		height: initial;
 		top: 45vh;
-		left: 100vh;
+		left: 105vh;
+	}
+	#uploadKuro{
+		position: absolute;
+		width: 30vh;
+		top: 54vh;
+		left: 95vh;
+	}
+	#uploadSiro{
+		position: absolute;
+		width: 30vh;
+		top: 58vh;
+		left: 95vh;
 	}
 }	
-@media (orientation: portrait){
+@media (orientation: portrait){/*for smart phone*/
 	img{
 		position: absolute;
 		width: 11vw;
+		height: 11vw;
 	}
 	#board{
 		position: absolute;
@@ -141,30 +171,35 @@ body{
 	#senkou{
 		position: absolute;
 		width: 18vw;
+		height: initial;
 		top: 46vw;
 		left: 30vw;
 	}
 	#koukou{
 		position: absolute;
 		width: 18vw;
+		height: initial;
 		top: 46vw;
 		left: 52vw;		
 	}
 	#l1{
 		position: absolute;
 		width: 12vw;
+		height: initial;
 		top: 46.5vw;
 		left: 28vw;		
 	}
 	#l2{
 		position: absolute;
 		width: 12vw;
+		height: initial;
 		top: 46.5vw;
 		left: 44vw;		
 	}
 	#l3{
 		position: absolute;
 		width: 12vw;
+		height: initial;
 		top: 46.5vw;
 		left: 60vw;		
 	}
@@ -199,7 +234,20 @@ body{
 	#reset{
 		position: absolute;
 		width: 12vw;
+		height: initial;
 		top: 120vw;
 		left: 44.5vw;
+	}
+	#uploadKuro{
+		position: absolute;
+		width: 28vw;
+		top: 130vw;
+		left: 20vw;
+	}
+	#uploadSiro{
+		position: absolute;
+		width: 28vw;
+		top: 130vw;
+		left: 53vw;
 	}
 }
