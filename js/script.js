@@ -1,6 +1,4 @@
 const n = "pic/dummy.png";	//no disc
-const k = "pic/kuro.png";	//kuro
-const s = "pic/siro.png";	//shiro
 
 var turn = k; //黒から
 var turnNum = 0;
