@@ -1,15 +1,3 @@
-document.getElementById("uploadKuro").addEventListener('change', function(e){
-    var file = e.target.files[0];
-    var blobUrl = window.URL.createObjectURL(file);
-    k = blobUrl;
-	reset();
-});
-document.getElementById("uploadSiro").addEventListener('change', function(e){
-    var file = e.target.files[0];
-    var blobUrl = window.URL.createObjectURL(file);
-    s = blobUrl;
-	reset();
-});
 const n = "pic/dummy.png";	//no disc
 
 var turn = k; //黒から
