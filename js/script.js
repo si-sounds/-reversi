@@ -1,5 +1,3 @@
-var k = "pic/kuro.png";
-var s = "pic/siro.png";
 document.getElementById("uploadKuro").addEventListener('change', function(e){
     var file = e.target.files[0];
     var blobUrl = window.URL.createObjectURL(file);
