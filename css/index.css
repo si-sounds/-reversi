@@ -42,6 +42,8 @@ label input {
 		position: absolute;
 		width: 10vh;
 		height: 10vh;
+		object-fit:cover;
+		border-radius:50%;
 	}
 	#board{
 		position: absolute;
@@ -49,6 +51,7 @@ label input {
 		height: 90vh;
 		top: 3vh;
 		left: 3vh;
+		border-radius:initial;
 	}
 	#select{
 		position: absolute;
@@ -56,6 +59,7 @@ label input {
 		height: 30vh;
 		top: 33vh;
 		left: 23vh;
+		border-radius:initial;
 	}
 	#senkou{
 		position: absolute;
@@ -63,6 +67,7 @@ label input {
 		height: initial;
 		top: 44vh;
 		left: 28vh;
+		border-radius:initial;
 	}
 	#koukou{
 		position: absolute;
@@ -70,6 +75,7 @@ label input {
 		height: initial;
 		top: 44vh;
 		left: 50vh;		
+		border-radius:initial;
 	}
 	#l1{
 		position: absolute;
@@ -77,6 +83,7 @@ label input {
 		height: initial;
 		top: 44.5vh;
 		left: 26vh;		
+		border-radius:initial;
 	}
 	#l2{
 		position: absolute;
@@ -84,6 +91,7 @@ label input {
 		height: initial;
 		top: 44.5vh;
 		left: 42vh;		
+		border-radius:initial;
 	}
 	#l3{
 		position: absolute;
@@ -91,6 +99,7 @@ label input {
 		height: initial;
 		top: 44.5vh;
 		left: 58vh;		
+		border-radius:initial;
 	}
 	#level{
 		position: absolute;
@@ -134,6 +143,7 @@ label input {
 		height: initial;
 		top: 45vh;
 		left: 105vh;
+		border-radius:initial;
 	}
 	#uploadKuro{
 		position: absolute;
@@ -153,6 +163,8 @@ label input {
 		position: absolute;
 		width: 11vw;
 		height: 11vw;
+		object-fit:cover;
+		border-radius:50%;
 	}
 	#board{
 		position: absolute;
@@ -160,6 +172,7 @@ label input {
 		height: 96vw;
 		top: 2vw;
 		left: 2vw;
+		border-radius:initial;
 	}
 	#select{
 		position: absolute;
@@ -167,6 +180,7 @@ label input {
 		height: 30vw;
 		top: 35vw;
 		left: 25vw;
+		border-radius:initial;
 	}
 	#senkou{
 		position: absolute;
@@ -174,6 +188,7 @@ label input {
 		height: initial;
 		top: 46vw;
 		left: 30vw;
+		border-radius:initial;
 	}
 	#koukou{
 		position: absolute;
@@ -181,6 +196,7 @@ label input {
 		height: initial;
 		top: 46vw;
 		left: 52vw;		
+		border-radius:initial;
 	}
 	#l1{
 		position: absolute;
@@ -188,6 +204,7 @@ label input {
 		height: initial;
 		top: 46.5vw;
 		left: 28vw;		
+		border-radius:initial;
 	}
 	#l2{
 		position: absolute;
@@ -195,6 +212,7 @@ label input {
 		height: initial;
 		top: 46.5vw;
 		left: 44vw;		
+		border-radius:initial;
 	}
 	#l3{
 		position: absolute;
@@ -202,6 +220,7 @@ label input {
 		height: initial;
 		top: 46.5vw;
 		left: 60vw;		
+		border-radius:initial;
 	}
 	#level{
 		position: absolute;
@@ -237,6 +256,7 @@ label input {
 		height: initial;
 		top: 120vw;
 		left: 44.5vw;
+		border-radius:initial;
 	}
 	#uploadKuro{
 		position: absolute;
